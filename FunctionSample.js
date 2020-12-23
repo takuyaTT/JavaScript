@@ -146,6 +146,7 @@ samplefn("Sato");
 
 /* ----------------------------
      コールバック関数
+     (引数として渡される関数)
    ---------------------------- */
 arrayList.forEach((lists) => {
     console.log(lists); // Macbook Surface chromebook
