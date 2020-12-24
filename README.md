@@ -1,4 +1,4 @@
-# JavaScript Primerまとめ
+# JavaScript Primerまとめ(自分用)
 ## 閏年判定(uruu.js)
 if文のサンプルプログラム
 
