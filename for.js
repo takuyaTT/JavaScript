@@ -44,6 +44,14 @@ Object.keys(obj).forEach(company =>{
     // -> Apple : Macbook Amazon : Kindle Google : chromebook Microsoft : Surface
 });
 
+// 配列から特定の値だけを集めた新しい配列を作る
+function isEven(num) {
+    return num % 2 === 0;
+}
+
+let arrayNumbers = [1, 5, 10, 15, 20];
+console.log(arrayNumbers.filter(isEven)); // => [10, 20]
+
 /* for of
 Symbol.iteratorという特別な名前のメソッドを実装したオブジェクトをiterableと呼び、
 iterableオブジェクトは、for...of文で反復処理が可能
