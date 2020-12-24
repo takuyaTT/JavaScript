@@ -144,8 +144,14 @@ const samplefn = (x = "Takuya") => {
 };
 samplefn("Sato");
 
+const numbers = [1, 5, 10, 15, 20];
+console.log(numbers.some(num =>{
+  return num % 2 === 0;
+}));
+
 /* ----------------------------
      コールバック関数
+     (引数として渡される関数)
    ---------------------------- */
 arrayList.forEach((lists) => {
     console.log(lists); // Macbook Surface chromebook
