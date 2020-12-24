@@ -125,6 +125,7 @@ console.log(optionalObj?.sample?.title); // -> undefined
 
 /*-------------------------
 プロパティの存在確認(in)
+prototypeオブジェクトを確認する
 ------------------------- */
 console.log("innerObj" in optionalObj); // -> true
 if("name" in optionalObj.innerObj ){
@@ -132,8 +133,10 @@ if("name" in optionalObj.innerObj ){
 }else{
     console.log("未定義");
 }
+console.log("toString" in optionalObj); // -> true
 /*-------------------------
 プロパティの存在確認(hasOwnProperty)
+prototypeオブジェクトを確認しない
 ------------------------- */
 console.log(optionalObj.hasOwnProperty("innerObj")); // -> true
 console.log(optionalObj.innerObj.hasOwnProperty("name")); // -> true
@@ -142,7 +145,7 @@ if(optionalObj.innerObj.hasOwnProperty("name")){
 }else{
     console.log("未定義");
 }
-
+console.log(optionalObj.hasOwnProperty("toString")); // -> false
 /* -------------------------
 オブジェクトのプロパティ名、値、プロパティ名と値を配列で取得
 ------------------------- */
