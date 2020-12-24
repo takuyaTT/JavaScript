@@ -52,6 +52,13 @@ function isEven(num) {
 let arrayNumbers = [1, 5, 10, 15, 20];
 console.log(arrayNumbers.filter(isEven)); // => [10, 20]
 
+/*
+もしくは下の書き方でももちろんOK(isEven文が不要になる)
+console.log(arrayNumbers.filter(num => {
+    return num % 2 === 0;
+}));
+*/
+
 /* for of
 Symbol.iteratorという特別な名前のメソッドを実装したオブジェクトをiterableと呼び、
 iterableオブジェクトは、for...of文で反復処理が可能
