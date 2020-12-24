@@ -23,6 +23,7 @@ func2(); // -> 私の名前はデフォルトです。
 
 /* ----------------------------
     Nullish coalescing演算子
+    nullまたはundefinedの時、指定した値を返す
 ---------------------------- */
 function func3(age,name){
     const userName = name ?? "Takuya";
