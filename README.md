@@ -1,23 +1,23 @@
-# JavaScript Primerまとめ
-## ●閏年判定(uruu.js)
+# JavaScript Primerまとめ(自分用)
+## 閏年判定(uruu.js)
 if文のサンプルプログラム
 
-## ●繰り返し処理(for.js)
-### 通常
+## 繰り返し処理(for.js)
+### ●通常
 for文の基本
-### forEach(配列)
+### ●forEach(配列)
 配列での繰り返し処理
-### for~in
+### ●for~in
 オブジェクトのプロパティに対しての反復処理  
 * 親オブジェクトまで探索する
 * 配列の場合、インデックス番号が列挙
-### Object.keys() + forEach()
+### ●Object.keys() + forEach()
 for~inの代替策
-### filter
+### ●filter
 配列から特定の条件下の値を集めた配列を生成する方法
-### for~of
+### ●for~of
 iterableオブジェクトの反復処理
-### reduce()
+### ●reduce()
 変数宣言なしの反復処理
 
 ## 条件分岐(Conditional.js)
